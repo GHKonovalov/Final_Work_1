@@ -5,13 +5,13 @@
 
 string Prompt()
 {
-  Console.Write($"Enter string element: ");
+  Console.Write($"Введите значение: ");
   string str = Console.ReadLine()!.ToString();
   return str;
 }
 string[] GetArray()
 {
-  int size = new Random().Next(3, 6);
+  int size = new Random().Next(3, 5);
   string[] array = new string[size];
   for (int i = 0; i < size; i++)
   {
